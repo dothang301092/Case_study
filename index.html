@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI LAF TRIỆU PHÚ</title>
+    <h1><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnNnon4Wl71aseDbGHEAjkHJcxxc8Ldx8O0sFcecL5CnBnoEo6"
+             width="200px" height="200px"></h1>
+
+    <h1>AI LÀ TRIỆU PHÚ</h1>
+    <link rel="stylesheet" href="ailatrieuphu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="ailatrieuphu.js"></script>
+</head>
+<body>
+<div id="each-question" class="row">
+    <table>
+        <thead>
+        <tr>
+            <div id="question"> <span id="question-number"></span>
+                <span id="display-question"></span>
+
+            </div>
+        <tr>
+        </thead>
+        <tbody id="sellector">
+        <tr>
+            <td>
+                <div id="boxA" class="box"></div>
+            </td>
+            <td>
+                <div id="boxB" class="box"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="boxC" class="box"></div>
+            </td>
+            <td>
+                <div id="boxD" class="box"></div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="form-group" id="board-button">
+        <button class="btn btn-info" id="submit-answer">Confirm Answer</button>
+        <button class="btn btn-default" id="withdraw-button">Withdraw</button>
+        <button class="btn btn-info" id="help5050-button">50 : 50</button>
+        <button class="btn btn-primary" id="helpSurvey-button">Survey</button>
+    </div>
+    <div class="form-group" id="result-button">
+        <button class="btn btn-success" id="next-question">Next Question</button>
+        <button class="btn btn-danger" id="restart-game">Restart Game</button>
+    </div>
+    <div class="notice">
+        <div class="alert" id="alert"></div>
+    </div>
+</div>
+<br>
+<div id="container" class="row">
+    <div id="question-form">
+        <div class="col-md-12">
+            <div id="page">
+                <label> <span id="number">Question 1</span>
+
+                </label>
+                <input type="text" class="form-control" id="inputQ" value="">
+            </div>
+        </div>
+        <div id="answer-input" class="row">
+            <div class="col-md-3">
+                <label>Answer A</label>
+                <input type="text" class="form-control" id="a" value="">
+            </div>
+            <div class="col-md-3">
+                <label>Answer B</label>
+                <input type="text" class="form-control" id="b" value="">
+            </div>
+            <div class="col-md-3">
+                <label>Answer C</label>
+                <input type="text" class="form-control" id="c" value="">
+            </div>
+            <div class="col-md-3">
+                <label>Answer D</label>
+                <input type="text" class="form-control" id="d" value="">
+            </div>
+        </div>
+        <div id="answer" class="row">
+            <label>Answer</label>
+            <select class="form-control" id="input-letter">
+                <option value="A" selected>A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select>
+        </div>
+    </div>
+    <div class="row" id="button">
+        <button class="btn btn-default" id="prev-button">Save & Back</button>
+        <button class="btn btn-primary" id="next-button">Save & Next</button>
+        <button class="btn btn-danger" id="reset-button">Reset Form</button>
+    </div>
+</div>
+<button class="btn btn-success" id="create-game-button">Create Game</button>
+<button class="btn btn-success" id="edit-button">Edit Game</button>
+<div class="raw" id="reward"></div>
+<div class="raw" id="survey-region">
+    <div class="surveyBoard">
+        <div class="raw" id="chartA"></div>
+        <div class="raw" id="chartB"></div>
+        <div class="raw" id="chartC"></div>
+        <div class="raw" id="chartD"></div>
+    </div>
+</div>
+</body>
+</html>
