@@ -82,7 +82,7 @@ const Quizs =[
     },
     {
         question: '9. Các vua Hùng đặt quốc hiệu nước ta là gì?',
-        answer: [
+        answers: [
             'A. Văn Lang',
             'B. Âu Lạc',
             'C. Vạn Xuân',
