@@ -111,14 +111,14 @@ const Quizs =[
         correct: 0
     },
     {
-        question: '12. Đâu là phần khó nhất trong modul1 của chương trình học Javascript',
+        question: '12. Đâu là phần khó nhất trong modul1 của chương trình học PHP',
         answers: [
             'A. Biến và kiểu dữ liệu',
             'B. Hàm',
             'C. Vòng lặp',
             'D. Hướng đối tượng'
         ],
-        correct: 4
+        correct: 3
     },
     {
         question: '13. Ai là người tạo ra ngôn ngữ Javascript ?',
