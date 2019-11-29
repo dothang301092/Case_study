@@ -138,7 +138,7 @@ const Quizs =[
             'C. Ricardo KaKa',
             'D. Rooney'
         ],
-        correct: 0
+        correct: 2
     },
     {
         question: '15. Ngôn ngữ hướng đối tượng có mấy tính chất đặc trưng?',
@@ -289,7 +289,7 @@ function checkWin(id) {
         document.getElementsByTagName("div")['prize'+game.currentQuiz]
             .setAttribute("class", "gotPrize");
         if (game.currentQuiz == 14) {
-            alert('Bạn đã trở thành tỉ phú!');
+            alert('Congratulate. You are a millionaire!');
             document.getElementById('conditionalButton').
                 innerHTML = "<button id='restartButton'" +
                 "class='start-btn btn' onclick='restart()'>Restart</button>";

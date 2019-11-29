@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newscript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1756">
-              <caret line="137" column="30" lean-forward="true" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
+            <state relative-caret-position="390">
+              <caret line="291" column="54" selection-start-line="291" selection-start-column="54" selection-end-line="291" selection-end-column="54" />
               <folding>
                 <element signature="n#!!block;n#stop#0" />
               </folding>
@@ -134,12 +134,12 @@
       <workItem from="1574952229916" duration="598000" />
       <workItem from="1574985158160" duration="748000" />
       <workItem from="1574986665644" duration="612000" />
-      <workItem from="1574990534861" duration="18537000" />
+      <workItem from="1574990534861" duration="19124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33196000" />
+    <option name="totallyTimeSpent" value="33783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -237,8 +237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newscript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1756">
-          <caret line="137" column="30" lean-forward="true" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
+        <state relative-caret-position="390">
+          <caret line="291" column="54" selection-start-line="291" selection-start-column="54" selection-end-line="291" selection-end-column="54" />
           <folding>
             <element signature="n#!!block;n#stop#0" />
           </folding>
