@@ -91,7 +91,7 @@ const Quizs =[
         correct: 0
     },
     {
-        quetsion: '10. An Dương Vương đặt quốc hiệu nước ta là gì?',
+        question: '10. An Dương Vương đặt quốc hiệu nước ta là gì?',
         answers: [
             'A. Âu Lạc',
             'B. Vạn Xuân',
@@ -118,7 +118,7 @@ const Quizs =[
             'C. Vòng lặp',
             'D. Hướng đối tượng'
         ],
-        correct: 0
+        correct: 4
     },
     {
         question: '13. Ai là người tạo ra ngôn ngữ Javascript ?',
@@ -141,7 +141,7 @@ const Quizs =[
         correct: 0
     },
     {
-        quetsion: '15. Ngôn ngữ hướng đối tượng có mấy tính chất đặc trưng?',
+        question: '15. Ngôn ngữ hướng đối tượng có mấy tính chất đặc trưng?',
         answers: [
             'A. 1',
             'B. 2',
