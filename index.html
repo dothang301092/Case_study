@@ -2,114 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AI LAF TRIỆU PHÚ</title>
-    <h1><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnNnon4Wl71aseDbGHEAjkHJcxxc8Ldx8O0sFcecL5CnBnoEo6"
-             width="200px" height="200px"></h1>
-
-    <h1>AI LÀ TRIỆU PHÚ</h1>
-    <link rel="stylesheet" href="css.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <title>WHO WANT TO BE A MILIONAIRE</title>
+    <link rel="stylesheet" href="newcss.css">
 </head>
 <body>
-<div id="each-question" class="row">
-    <table>
-        <thead>
-        <tr>
-            <div id="question"> <span id="question-number"></span>
-                <span id="display-question"></span>
+<div id="wrapper">
 
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="banner"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnNnon4Wl71aseDbGHEAjkHJcxxc8Ldx8O0sFcecL5CnBnoEo6"
+                width="200px" height="200px" height="190" width="700" /></div>
+            <div id="header"> Do you want to be a millionaire ?</div>
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn" id="0"onclick="changeColorButton(this.id)">Answer 1</button>
+                <button class="btn" id="1"onclick="changeColorButton(this.id)">Answer 2</button>
+                <button class="btn" id="2"onclick="changeColorButton(this.id)">Answer 3</button>
+                <button class="btn" id="3"onclick="changeColorButton(this.id)">Answer 4</button>
             </div>
-        <tr>
-        </thead>
-        <tbody id="sellector">
-        <tr>
-            <td>
-                <div id="boxA" class="box"></div>
-            </td>
-            <td>
-                <div id="boxB" class="box"></div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div id="boxC" class="box"></div>
-            </td>
-            <td>
-                <div id="boxD" class="box"></div>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-    <div class="form-group" id="board-button">
-        <button class="btn btn-info" id="submit-answer">Confirm Answer</button>
-        <button class="btn btn-default" id="withdraw-button">Withdraw</button>
-        <button class="btn btn-info" id="help5050-button">50 : 50</button>
-        <button class="btn btn-primary" id="helpSurvey-button">Survey</button>
-    </div>
-    <div class="form-group" id="result-button">
-        <button class="btn btn-success" id="next-question">Next Question</button>
-        <button class="btn btn-danger" id="restart-game">Restart Game</button>
-    </div>
-    <div class="notice">
-        <div class="alert" id="alert"></div>
-    </div>
-</div>
-<br>
-<div id="container" class="row">
-    <div id="question-form">
-        <div class="col-md-12">
-            <div id="page">
-                <label> <span id="number">Question 1</span>
+            <div class="clear"></div>
+            <div id="alert"></div>
+        </div>
 
-                </label>
-                <input type="text" class="form-control" id="inputQ" value="">
-            </div>
-        </div>
-        <div id="answer-input" class="row">
-            <div class="col-md-3">
-                <label>Answer A</label>
-                <input type="text" class="form-control" id="a" value="">
-            </div>
-            <div class="col-md-3">
-                <label>Answer B</label>
-                <input type="text" class="form-control" id="b" value="">
-            </div>
-            <div class="col-md-3">
-                <label>Answer C</label>
-                <input type="text" class="form-control" id="c" value="">
-            </div>
-            <div class="col-md-3">
-                <label>Answer D</label>
-                <input type="text" class="form-control" id="d" value="">
-            </div>
-        </div>
-        <div id="answer" class="row">
-            <label>Answer</label>
-            <select class="form-control" id="input-letter">
-                <option value="A" selected>A</option>
-                <option value="B">B</option>
-                <option value="C">C</option>
-                <option value="D">D</option>
-            </select>
+        <div class="controls" id="conditionalButton">
+            <button id="next-btn" class="next-btn btn hide"onclick="nextQuestion()">Next</button>
+            <button id="start-btn" class="start-btn btn" onclick="fiftyFifty(this.id)"> 50:50 </button>
+            <button id="opinion" class="start-btn btn" onclick="improving()"> opinion </button>
+            <button id="stop-btn" class="start-btn btn" onclick="endGame(this.id)"> stop game </button>
+
         </div>
     </div>
-    <div class="row" id="button">
-        <button class="btn btn-default" id="prev-button">Save & Back</button>
-        <button class="btn btn-primary" id="next-button">Save & Next</button>
-        <button class="btn btn-danger" id="reset-button">Reset Form</button>
+    <div id="footer">
+        <div class="score" id="prize">Giải thưởng</div>
+        <div class="score" id="prize0">1000$</div>
+        <div class="score" id="prize1">2000$</div>
+        <div class="score" id="prize2">5000$</div>
+        <div class="score" id="prize3">10000$</div>
+        <div class="score" id="prize4">20000$</div>
+        <div class="score" id="prize5">40000$</div>
+        <div class="score" id="prize6">80000$</div>
+        <div class="score" id="prize7">120000$</div>
+        <div class="score" id="prize8">200000$</div>
+        <div class="score" id="prize9">30000$</div>
+        <div class="score" id="prize10">400000$</div>
+        <div class="score" id="prize11">550000$</div>
+        <div class="score" id="prize12">700000$</div>
+        <div class="score" id="prize13">800000$</div>
+        <div class="score" id="prize14">1000000$</div>
+
     </div>
 </div>
-<button class="btn btn-success" id="create-game-button">Create Game</button>
-<button class="btn btn-success" id="edit-button">Edit Game</button>
-<div class="raw" id="reward"></div>
-<div class="raw" id="survey-region">
-    <div class="surveyBoard">
-        <div class="raw" id="chartA"></div>
-        <div class="raw" id="chartB"></div>
-        <div class="raw" id="chartC"></div>
-        <div class="raw" id="chartD"></div>
-    </div>
-</div>
+<script src="newscript.js"></script>
 </body>
 </html>
